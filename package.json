@@ -1,0 +1,12 @@
+{
+  "name": "wallet-api",
+  "version": "1.0.0",
+  "description": "Ethereum wallet on via API blockchain",
+  "main": "main.js",
+  "repository": "https://github.com/shamil8/wallet-api",
+  "author": "Shamil Qurbonov",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
+}
