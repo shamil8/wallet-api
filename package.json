@@ -3,10 +3,19 @@
   "version": "1.0.0",
   "description": "Ethereum wallet on via API blockchain",
   "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon --inspect main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": "https://github.com/shamil8/wallet-api",
-  "author": "Shamil Qurbonov",
+  "author": "Shamil Qurbonov <qurbonovshamil@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^18.1.0"
+    "@hapi/hapi": "^20.1.4",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
